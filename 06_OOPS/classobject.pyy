@@ -1,0 +1,22 @@
+#Class = Blueprint..A class is a blueprint used to create objects.
+#Object = Real House..Real thing created from class.
+
+'''Student Class
+      ↓
+----------------
+| Name         |
+| Age          |
+| CGPA         |
+----------------
+
+      ↓
+
+s1
+s2
+s3
+
+
+class Student:  #class
+
+
+s1 = Student()  #object'''
