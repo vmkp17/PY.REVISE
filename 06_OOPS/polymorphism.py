@@ -1,6 +1,6 @@
 '''  Poly = Many
 Morphism = Forms
-'''
+''' #same method different behavior
 
 #Method Overriding:Child class method replaces parent class method.
 class Animal:
