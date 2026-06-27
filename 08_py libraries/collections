@@ -1,0 +1,45 @@
+#collections is a built-in Python library that provides special data structures which are more powerful than normal lists, tuples, dictionaries and sets.
+#Counter,defaultdict, deque, namedtuple, OrderedDict are the most commonly used data structures in the collections module.
+
+#COUNTER: Counter is a subclass of dict that helps count hashable objects. It is an unordered collection where elements are stored as dictionary keys and their counts are stored as dictionary values.Counter counts how many times each element appears.
+print("COUNTER EG")
+from collections import Counter, namedtuple
+names = ["Ali","Rahul","Ali","madhuri","Ali","madhuri","Rahul"]
+count = Counter(names)
+print(count)
+'''count words eg
+from collections import Counter
+word = "banana"
+count = Counter(word)
+print(count)'''
+
+#2.A defaultdict is a dictionary that automatically creates a default value when a key does not exist.
+print("DEFAULTDICT EG")
+from collections import defaultdict
+student = defaultdict(int)
+print(student["marks"])
+
+#3. A deque (double-ended queue) is a data structure that allows you to add or remove elements from both ends efficiently.
+print("DEQUE EG")
+from collections import deque
+queue = deque(["Ali","Rahul"])
+queue.appendleft("madhu")
+queue.popleft()
+print(queue)
+
+#4. A namedtuple is a subclass of tuple that allows you to create tuple-like objects with named fields.
+print("NAMEDTUPLE EG")
+from collections import namedtuple
+Car = namedtuple("Car",["brand","model"])
+c1 = Car("BMW","X5")
+print(c1.brand)
+print(c1.model)
+
+#5. An OrderedDict is a subclass of dict that maintains the order of the keys based on the order they were added.
+print("ORDEREDDICT EG")
+'''Note: From Python 3.7+, the normal dict also preserves insertion order. So today, OrderedDict is used mainly when you need its extra methods or when working with older code.'''
+from collections import OrderedDict
+student = OrderedDict()
+student["name"] = "FIFA"
+student["age"] = 20
+print(student["name"])

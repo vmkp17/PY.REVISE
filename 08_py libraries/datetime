@@ -1,0 +1,86 @@
+#A library is a collection of pre-written Python code that provides ready-to-use functions and classes for common tasks.
+''' example:
+               import math
+print(math.sqrt(25))
+'''
+#DATETIME:datetime is a built-in Python library used to work with dates, times, days, months, years, and time calculations.
+ 
+import datetime
+current = datetime.datetime.now()
+print(current)
+print(current.year)
+print(current.month)
+print(current.day)
+
+#2.strftime() converts a datetime object into a formatted string.
+''' Common Format Codes
+- %d → Day
+- %m → Month
+- %b → Short month
+- %Y → Full Year
+- %H → Hour (24-hour)
+- %I → Hour (12-hour)
+- %M → Minute
+- %S → Second
+- %A → Full Weekday
+- %a → Short Weekday
+- %B → Full Month
+- %p → AM/PM '''
+print("STRFTIME EG")
+from datetime import datetime
+current = datetime.now()
+print("Date :", current.strftime("%d/%m/%Y"))
+print("Time :", current.strftime("%I:%M:%S %p"))
+
+#strptime() converts a string into a datetime object.
+print("STRPTIME EG")
+from datetime import datetime
+date = "28/06/2026"
+converted = datetime.strptime(date, "%d/%m/%Y")
+print(converted)
+
+'''| strftime()        | strptime()            |
+| ----------------- | --------------------- |
+| Datetime → String | String → Datetime     |
+| Used for display  | Used for calculations |
+'''
+
+#timedelta: timedelta is a class in the datetime module that represents a duration, i.e., the difference between two dates or times. It can be used to perform arithmetic operations on dates and times.
+print("TIMEDELTA EG")
+from datetime import datetime,timedelta
+today = datetime.now()
+future = today + timedelta(days=10)
+print(future)
+
+
+#weekday() returns the day of the week as a number. MONDAY=0
+from datetime import datetime
+today = datetime.now()
+print(today.weekday())
+
+#isoweekday:Returns weekday according to ISO Standard.MON=1
+print("ISOWEEKDAY EG")
+from datetime import datetime
+today = datetime.now()
+print(today.isoweekday())
+
+#Date Comparison:
+print("DATE COMPARISON EG")
+from datetime import datetime
+today = datetime(2026,6,28)
+exam = datetime(2026,6,30)
+print(today < exam)
+
+#Date Difference    
+print("DATE DIFFERENCE EG")
+from datetime import datetime
+start = datetime(2026,6,1)
+end = datetime(2026,6,28)
+difference = end - start
+print(difference)
+
+#timestamp: A timestamp is a numerical representation of a specific point in time, typically expressed as the number of seconds that have elapsed since January 1, 1970 (the Unix epoch). In Python, you can work with timestamps using the datetime module.
+print("TIMESTAMP EG")
+from datetime import datetime
+current = datetime.now()
+print(current.timestamp())

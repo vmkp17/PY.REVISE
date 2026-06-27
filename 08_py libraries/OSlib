@@ -1,0 +1,42 @@
+#The os module allows Python to interact with the operating system.
+
+#1 : Current Working Directory
+print("EXAMPLE:Current Working Director")
+import os
+print(os.getcwd())
+
+#2:list files
+print("EXAMPLE:list files")
+import os
+files = os.listdir()
+for file in files:
+    print(file)
+
+#3 : Create Folder
+print("EXAMPLE CreateFolder")
+'''import os
+3.os.mkdir("Python_Notes")
+4.os.rename("Python_Notes","Python")
+5.os.rmdir("Python")'''
+
+#6 : Check File Exists
+print("EXAMP Check File Exists")
+import os
+print(os.path.exists("resume.pdf"))
+
+#7 : Join Paths:Never manually do
+'''print("EXAM JOIN")
+import os
+path = os.path.join("Users","mad","Desktop")
+print(path)'''
+
+''''
+os.getcwd()
+os.listdir()
+os.mkdir()
+os.rename()
+os.rmdir()
+os.path.exists()
+os.path.join()'''
+
+
