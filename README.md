@@ -40,8 +40,8 @@ Phase 4: File Handling
 - CSV Files
 - JSON Files
 - Exception Handling with Files
-  
-- Phase 5: Exception Handling
+
+Phase 5: Exception Handling
 - Try
 - Except
 - Else
