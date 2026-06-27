@@ -14,6 +14,7 @@ Phase 1: Python Fundamentals
 - Pattern Programs
 - Basic Math Programs
 - String Basics
+
 Phase 2: Functions & Modular Programming
 - Functions
 - Parameters
@@ -23,6 +24,7 @@ Phase 2: Functions & Modular Programming
 - Recursion
 - Modules
 - Packages
+  
 Phase 3: Data Structures
 - Lists
 - Tuples
@@ -30,6 +32,7 @@ Phase 3: Data Structures
 - Dictionaries
 - List Comprehensions
 - Nested Collections
+  
 Phase 4: File Handling
 - Reading Files
 - Writing Files
@@ -37,6 +40,7 @@ Phase 4: File Handling
 - CSV Files
 - JSON Files
 - Exception Handling with Files
+  
 - Phase 5: Exception Handling
 - Try
 - Except
@@ -44,6 +48,7 @@ Phase 4: File Handling
 - Finally
 - Raise
 - Custom Exceptions
+  
 Phase 6: Object-Oriented Programming (OOP)
 - Classes & Objects
 - Constructors
@@ -54,6 +59,7 @@ Phase 6: Object-Oriented Programming (OOP)
 - Abstraction
 - Method Overriding
 - Method Overloading Concepts
+  
 Phase 7: Advanced Python
 - Iterators
 - Generators
@@ -67,6 +73,7 @@ Phase 7: Advanced Python
 - reduce()
 - zip()
 - enumerate()
+  
 Phase 8: Python Standard Libraries
 - datetime
 - collections
