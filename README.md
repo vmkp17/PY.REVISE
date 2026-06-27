@@ -39,7 +39,8 @@ Phase 4: File Handling
 - Append Mode
 - CSV Files
 - JSON Files
-- Exception Handling with Files
+- ExceptionHandling with Files
+
 
 Phase 5: Exception Handling
 - Try
