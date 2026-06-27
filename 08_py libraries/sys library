@@ -1,0 +1,26 @@
+#The sys module provides access to Python interpreter and system-specific information.
+'''
+sys.version
+
+sys.version_info
+
+sys.exit()
+
+sys.argv :Returns command-line arguments.
+
+sys.platform
+
+sys.maxsize
+'''
+
+
+import sys
+print(sys.version)       #1
+print(sys.version_info)  #2
+print(sys.platform)      #5
+print(sys.maxsize)       #6
+#3 exit program
+import sys
+print("Program Started")
+sys.exit()
+print("This will never execute")

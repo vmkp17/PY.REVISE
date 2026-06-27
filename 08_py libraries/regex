@@ -1,0 +1,11 @@
+#it is a pattern used to search, match, validate, or replace text.
+import re
+re.search()
+
+re.match()
+
+re.findall()
+
+re.sub()
+
+re

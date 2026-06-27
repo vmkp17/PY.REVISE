@@ -1,0 +1,40 @@
+#The random module is used to generate random numbers, random choices, and random selections.
+
+#1.random.randint()
+print("1.EG")
+import random
+print(random.randint(1,10))
+
+#2.random.random()
+print("2.eg")
+import random
+print(random.random())
+
+#3.random.choice()
+print("3.eg")
+import random
+fruits = ["Apple","Banana","Orange","Mango"]
+print(random.choice(fruits))
+
+#4 random.shuffle
+import random
+cards = [1,2,3,4,5]
+random.shuffle(cards)
+print(cards)
+
+'''
+random.randint(a,b)
+
+random.random()
+
+random.choice(sequence)
+
+random.shuffle(sequence)
+
+random.sample(sequence,n)
+
+random.uniform(a,b)
+
+random.seed(value)
+
+'''

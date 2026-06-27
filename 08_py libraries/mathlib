@@ -1,0 +1,18 @@
+#The math module provides mathematical functions and constants for performing complex calculations.
+
+import math
+
+print(math.sqrt(144))
+print(math.pow(2,5))
+print(math.factorial(5))
+print(math.ceil(5.2))  #ROUNDUP
+print(math.floor(5.9))
+print(math.pi)
+print(math.e) #EULER NUMBER
+print(math.log(10))  #LOGARITHM
+print(math.sin(math.radians(90)))
+print(math.gcd(12,18)) #GREATEST COMMON DIVISIOR
+print(math.fabs(-20))  #Absolute Value
+print(math.trunc(12.98)) #Removes decimal part.
+math.cos()
+math.tan()
